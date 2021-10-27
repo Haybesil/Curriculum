@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(126, 175, 35);
+}
+
+h1 {
+    color: green;
+    text-decoration: underline green;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+h3 {
+    font-weight: lighter;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}   */
+
+div.box {
+    text-align: left;
+    padding: 36px 24px 40px 24px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.15);
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1.title {
+ /* text-align: center; */
+ text-decoration: none;
+ margin-right: 30px;
+ float: right;
+ font-size: 4.5rem;
+ color: white;
+ background-color: rgb(8, 56, 8);
+ padding: 3rem; 
+ margin-top: 3.5rem;
+ border-radius: 7px;
+}
+
+div.contact {
+    margin-top: 0;
+    height: 200px;
+}
+
+div.contact img {
+    box-sizing: content-box;
+    padding: 0;
+    width: 368px;
+    height: 220px;
+}
+
+div.contact h1 {
+    text-align: left;
+    color: green;
+}
+
+div.contact p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+div.experience {
+    margin-left: 26rem;
+    margin-top: 1rem;
+    position: relative;
+    
+}
+
+div.experience h1 {
+    margin-top: 0;
+}
+
+
+
+div.education {
+    margin-left: 26rem;
+    margin-top: 2rem; 
+}
+
+
+@media screen and (max-width: 720px) {
+   .container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+   }
+   div.box {
+    text-align: left;
+    padding: 36px 24px 40px 24px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.15);
+   }
+   h1.title{
+       width: 320px;
+       margin-left: 4rem;
+   }
+
+   div.contact {
+       width: auto;
+       margin-top: 24.5rem;
+   }
+   div.contact h1 {
+    text-align: left;
+    color: green;
+    padding-top: 0;
+   }
+   div.contact p {
+    text-align: left;
+   }
+   
+   div.experience {
+       width: auto;
+       margin-top: 44rem ;
+       margin-left: 0;
+   }
+   div.experience h1 {}
+
+   div.education {
+       margin-top: 0.7rem;
+       width: auto;
+       margin-left: 0;
+   }
+}
+
+/* @media (min-width: 840px) {
+    h1.title {
+        width: auto;
+        text-decoration: none;
+        margin-right: 28px;
+        float: right;
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(8, 56, 8);
+        padding: 3rem; 
+        margin-top: 2.4rem;
+        border-radius: 7px; 
+    }
+
+    div.contact {
+       margin-left: 1.2rem;
+    }
+
+    div.experience {
+        margin-left: 18rem;
+        margin-top: -2rem;
+    }
+
+    div.education {
+        margin-left: 18rem;
+        margin-top: 1rem;
+    }
+} */
+
