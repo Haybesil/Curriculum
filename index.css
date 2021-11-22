@@ -8,7 +8,7 @@ body {
 
 h1.title {
     text-align: center;
-    color: blue;
+    color: black;
     background: cadetblue;
     border-radius: 7px;
     font-size: 56px;
@@ -74,7 +74,7 @@ div.box {
 
     text-align: center;
 
-    color: green;
+    color: black;
 
     background: cadetblue;
 
