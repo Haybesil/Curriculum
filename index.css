@@ -69,6 +69,10 @@ div.box {
 
 
 @media screen and (max-width: 680px) {
+    
+    h1.title {
+       font-size: 50px;
+    } 
     p {
         font-size: 20px;
     }
